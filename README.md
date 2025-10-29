@@ -253,14 +253,67 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 Percentage\ of\ DFF's = Flop\ Ratio * 100
 ```
 
-* All section 1 logs, reports and results can be found in following run folder:
+#### 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
+
+Commands to invoke the OpenLANE flow and perform synthesis
+
+```bash
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+# Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+docker
+```
+```tcl
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+```
 
 
-[Section 1 Run - 15-03_15-51](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/tree/main/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/15-03_15-51)
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_02_51_04" src="https://github.com/user-attachments/assets/2f88da67-2f2d-41c4-aa39-61b0265f355b" />
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_02_58_32" src="https://github.com/user-attachments/assets/1e5db22c-43a7-4fdd-b97b-4763a1a4563f" />
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_02_59_22" src="https://github.com/user-attachments/assets/e0832110-a52d-42b8-b778-f2c9687b1c69" />
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_02_53_17" src="https://github.com/user-attachments/assets/439a66e9-80ce-43b4-8583-58a74cd5af0a" />
 
 
+#### 2. Calculate the flop ratio.
+
+Screenshots of synthesis statistics report file with required values highlighted
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_03_08_09" src="https://github.com/user-attachments/assets/7f82a11e-f76d-4169-9bbd-a7bf26f59df4" />
 
 
+Calculation of Flop Ratio and DFF % from synthesis statistics report file
+
+```math
+Flop\ Ratio = \frac{1613}{14876} = 0.108429685
+```
+```math
+Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
+```
+
+#### 3. Reports
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_03_13_50" src="https://github.com/user-attachments/assets/04be7fbe-3715-4cf6-8384-f826744ae6e5" />
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_03_14_11" src="https://github.com/user-attachments/assets/65574d3f-2eb9-4adb-b974-3e0250b43bbf" />
 
 
 
