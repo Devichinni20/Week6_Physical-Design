@@ -316,6 +316,504 @@ Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_03_14_11" src="https://github.com/user-attachments/assets/65574d3f-2eb9-4adb-b974-3e0250b43bbf" />
 
 
+</details>
+
+
+## Day 2 - Good floorplan vs bad floorplan and introduction to library cells 
+
+<details>
+  <summary>
+ THEORY-SS
+  </summary>
+
+<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/e0478ef9-b2b6-4e81-9602-744cf7c5f39b" />
+<img width="1920" height="1080" alt="Screenshot (265)" src="https://github.com/user-attachments/assets/44631b06-ef5d-4e54-b03b-6642fdd66b57" />
+<img width="1920" height="1080" alt="Screenshot (266)" src="https://github.com/user-attachments/assets/1a70e625-de23-4860-bf8a-7713e66e7f0b" />
+<img width="1920" height="1080" alt="Screenshot (267)" src="https://github.com/user-attachments/assets/d52a0b12-22f5-4690-b266-a783a27e3209" />
+
+<img width="1920" height="1080" alt="Screenshot (268)" src="https://github.com/user-attachments/assets/24f2784c-e62b-4c25-9017-dbf4289bb687" />
+
+<img width="1920" height="1080" alt="Screenshot (269)" src="https://github.com/user-attachments/assets/0d466fee-aab7-41dd-a32b-cfb87503d9c3" />
+
+<img width="1920" height="1080" alt="Screenshot (270)" src="https://github.com/user-attachments/assets/3a0bd81e-8858-418e-ae81-d5eb922ce683" />
+<img width="1920" height="1080" alt="Screenshot (271)" src="https://github.com/user-attachments/assets/e7b5c9eb-feaa-46ed-86a2-bbcfe79bc23c" />
+<img width="1920" height="1080" alt="Screenshot (272)" src="https://github.com/user-attachments/assets/395f9bb0-abfa-4335-aeeb-03438c7be908" />
+<img width="1920" height="1080" alt="Screenshot (273)" src="https://github.com/user-attachments/assets/e3d8d7c6-2aa4-4b48-89ae-092061198350" />
+<img width="1920" height="1080" alt="Screenshot (274)" src="https://github.com/user-attachments/assets/9d80bbaa-c9ad-4a46-b99f-a1c3bf7ffe0f" />
+
+<img width="1920" height="1080" alt="Screenshot (275)" src="https://github.com/user-attachments/assets/8c3d519d-e38f-4f71-bed0-2cb3ed0ef00e" />
+<img width="1920" height="1080" alt="Screenshot (276)" src="https://github.com/user-attachments/assets/4430cd21-462a-44b3-a219-86a7fd9ebd52" />
+
+<img width="1920" height="1080" alt="Screenshot (277)" src="https://github.com/user-attachments/assets/1bd3984f-3162-46c1-8e38-da17357d3de2" />
+<img width="1920" height="1080" alt="Screenshot (278)" src="https://github.com/user-attachments/assets/85a87e97-3515-44a8-ac04-0f9f03e34433" />
+
+<img width="1920" height="1080" alt="Screenshot (279)" src="https://github.com/user-attachments/assets/6fd1890b-0e0e-46a3-b532-cd8b48bd9c88" />
+
+<img width="1920" height="1080" alt="Screenshot (280)" src="https://github.com/user-attachments/assets/e83787cd-08c0-4493-9d15-ceb5eaa2571e" />
+<img width="1920" height="1080" alt="Screenshot (281)" src="https://github.com/user-attachments/assets/594c30ea-4ff8-4c84-a1fa-2fb4f5831f65" />
+<img width="1920" height="1080" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/124a8320-2af8-4148-9507-59b97f836d80" />
+
+<img width="1920" height="1080" alt="Screenshot (285)" src="https://github.com/user-attachments/assets/f56ad165-915e-4153-aafe-99b534de6649" />
+
+
+<img width="1920" height="1080" alt="Screenshot (287)" src="https://github.com/user-attachments/assets/22aaf824-35fa-43d4-9b1f-e46fb745a200" />
+
+<img width="1920" height="1080" alt="Screenshot (289)" src="https://github.com/user-attachments/assets/d970c0ff-7db2-485f-b10c-2d602c912614" />
+<img width="1920" height="1080" alt="Screenshot (290)" src="https://github.com/user-attachments/assets/435b648a-0341-43c6-a314-19f33d9bc960" />
+
+<img width="1920" height="1080" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/8b352953-3748-4455-b2e6-733f0a4e5760" />
+
+
+<img width="1920" height="1080" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/62e8805d-7eb8-4424-bdc9-d76f423cdc33" />
+<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/b1d23179-8406-4cbe-a026-11436e449779" />
+<img width="1920" height="1080" alt="Screenshot (298)" src="https://github.com/user-attachments/assets/573fcf68-3cee-484c-8fc2-d1a99157a6d4" />
+
+
+<img width="1920" height="1080" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/dc69232d-0759-4d52-b8e0-c30185652ea3" />
+
+<img width="1920" height="1080" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/0f7de176-e59f-4182-9581-ba3257ddbfd5" />
+<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/e5b23699-99ca-447a-b09c-47f7e63c7ea5" />
+
+<img width="1920" height="1080" alt="Screenshot (304)" src="https://github.com/user-attachments/assets/cd2b2ca6-57df-48d1-8534-01dc786bbe7c" />
+
+<img width="1920" height="1080" alt="Screenshot (305)" src="https://github.com/user-attachments/assets/f526c532-62a2-4548-9e44-98ab0de9ea3f" />
+
+<img width="1920" height="1080" alt="Screenshot (307)" src="https://github.com/user-attachments/assets/1b22e900-859f-4050-b493-0d6331d30400" />
+
+<img width="1920" height="1080" alt="Screenshot (308)" src="https://github.com/user-attachments/assets/dc0491af-25c6-4282-8cda-9c4570a81c3a" />
+
+<img width="1920" height="1080" alt="Screenshot (309)" src="https://github.com/user-attachments/assets/d0c9dd40-5561-42f8-a067-af85543a87f9" />
+
+
+<img width="1920" height="1080" alt="Screenshot (310)" src="https://github.com/user-attachments/assets/69ffdbd2-6e35-4008-a3e4-4bace218bcac" />
+
+
+
+<img width="1920" height="1080" alt="Screenshot (311)" src="https://github.com/user-attachments/assets/49e34309-e4fe-4f38-b27c-029c5f100e43" />
+<img width="1920" height="1080" alt="Screenshot (312)" src="https://github.com/user-attachments/assets/52d798cd-6187-4127-9e8c-e717f25e31c1" />
+<img width="1920" height="1080" alt="Screenshot (313)" src="https://github.com/user-attachments/assets/54b0ae39-e1f2-4ae1-b3a5-89308f07e9ed" />
+
+
+<img width="1920" height="1080" alt="Screenshot (315)" src="https://github.com/user-attachments/assets/69c470fb-cfcd-49a7-b809-2d9964d89f1e" />
+<img width="1920" height="1080" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/fe73e580-41a7-4f25-8944-1a84d2158926" />
+
+<img width="1920" height="1080" alt="Screenshot (317)" src="https://github.com/user-attachments/assets/f49279db-1820-4522-9e52-a1acbbe47f51" />
+
+
+</details>
+
+<details>
+  <summary>
+ IMPLEMENTATION 
+  </summary>
+
+1. Run 'picorv32a' design floorplan using OpenLANE flow and generate necessary outputs.
+2. Calculate the die area in microns from the values in floorplan def.
+3. Load generated floorplan def in magic tool and explore the floorplan.
+4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
+5. Load generated placement def in magic tool and explore the placement.
+
+```math
+Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
+```
+
+#### 1. Run 'picorv32a' design floorplan using OpenLANE flow and generate necessary outputs.
+
+Commands to invoke the OpenLANE flow and perform floorplan
+
+```bash
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+# Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+docker
+```
+```tcl
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Now we can run floorplan
+run_floorplan
+```
+
+Screenshot of floorplan run
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_21_01_34" src="https://github.com/user-attachments/assets/61febe85-00ae-40fa-881e-a54aad9c4b8f" />
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_21_02_26" src="https://github.com/user-attachments/assets/1a2754aa-0a73-46ef-8e4c-2a21d9806ce4" />
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_21_13_17" src="https://github.com/user-attachments/assets/fbceb257-1fe0-44e8-8f45-ec5a920772be" />
+
+#### 2. Calculate the die area in microns from the values in floorplan def.
+
+Screenshot of contents of floorplan def
+
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_21_15_38" src="https://github.com/user-attachments/assets/fc7d6046-0b42-41cb-bab1-c9fb22aa9770" />
+
+According to floorplan def
+```math
+1000\ Unit\ Distance = 1\ Micron
+```
+```math
+Die\ width\ in\ unit\ distance = 660685 - 0 = 660685
+```
+```math
+Die\ height\ in\ unit\ distance = 671405 - 0 = 671405
+```
+```math
+Distance\ in\ microns = \frac{Value\ in\ Unit\ Distance}{1000}
+```
+```math
+Die\ width\ in\ microns = \frac{660685}{1000} = 660.685\ Microns
+```
+```math
+Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
+```
+```math
+Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+```
+
+#### 3. Load generated floorplan def in magic tool and explore the floorplan.
+
+Commands to load floorplan def in magic in another terminal
+
+```bash
+# Change directory to path containing generated floorplan def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/floorplan/
+
+# Command to load the floorplan def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+```
+
+Screenshots of floorplan def in magic
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_21_23_11" src="https://github.com/user-attachments/assets/5171fe10-af81-46e7-92da-403d9ce89e9b" />
+Equidistant placement of ports
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_34_59" src="https://github.com/user-attachments/assets/b6589a6b-610b-47de-86d3-bebce8c12538" />
+
+Port layer as set through config.tcl
+
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_37_18" src="https://github.com/user-attachments/assets/0d063720-6796-4c6d-9c15-40c666fe10b4" />
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_43_49" src="https://github.com/user-attachments/assets/6e846536-3294-42c7-af7f-a658eec9af8f" />
+
+Decap Cells and Tap Cells
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_45_34" src="https://github.com/user-attachments/assets/66322c7c-ba4b-48b9-9ed9-f704d5f5c51a" />
+
+Diogonally equidistant Tap cells
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_45_52" src="https://github.com/user-attachments/assets/5224c7ff-41ba-4e6a-9cfd-a4dbb155e2e2" />
+
+Unplaced standard cells at the origin
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_29_10_2025_23_48_01" src="https://github.com/user-attachments/assets/4dee8829-619f-4d02-a956-6329207a403d" />
+
+#### 4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
+
+Command to run placement
+
+```tcl
+# Congestion aware placement by default
+run_placement
+```
+
+Screenshots of placement run
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_00_40_58" src="https://github.com/user-attachments/assets/7c3382a5-28c5-4228-b5c5-cb133aba6920" />
+
+
+#### 5. Load generated placement def in magic tool and explore the placement.
+
+Commands to load placement def in magic in another terminal
+
+```bash
+# Change directory to path containing generated placement def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/placement/
+
+# Command to load the placement def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+```
+
+Screenshots of floorplan def in magic
+
+
+
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_00_47_38" src="https://github.com/user-attachments/assets/b1698374-a526-416b-b4ef-29eca58601ec" />
+
+Standard cells legally placed 
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_00_48_00" src="https://github.com/user-attachments/assets/8f822707-79e5-4158-bb49-2d2b90cee8f9" />
+
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_00_53_13" src="https://github.com/user-attachments/assets/7ca6c5dc-1dbe-4eb9-b02e-ef43351a9adb" />
+
+Commands to exit from current run
+
+```tcl
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+```
+
+</details>
+
+## Day3 - Design library cell using Magic Layout and ngspice characterization 
+
+<details>
+  <summary>
+ THEORY-SS
+  </summary>
+<img width="1920" height="1080" alt="Screenshot (318)" src="https://github.com/user-attachments/assets/15491376-4659-477c-beb3-7dc060354366" />
+
+
+<img width="1920" height="1080" alt="Screenshot (319)" src="https://github.com/user-attachments/assets/1438d96e-9366-4e46-b0f6-42be3a14ad9d" />
+<img width="1920" height="1080" alt="Screenshot (320)" src="https://github.com/user-attachments/assets/60d6796a-fa13-429e-891a-d86cd3336ac8" />
+
+<img width="1920" height="1080" alt="Screenshot (321)" src="https://github.com/user-attachments/assets/535acf49-4cf2-4db1-aaae-a17588dabdf2" />
+
+<img width="1920" height="1080" alt="Screenshot (322)" src="https://github.com/user-attachments/assets/c9baf1e3-cbe1-4bb8-880f-4bc12ac4c077" />
+<img width="1920" height="1080" alt="Screenshot (323)" src="https://github.com/user-attachments/assets/96b4891b-eef7-4e2f-8717-8cc6f18d9d63" />
+
+<img width="1920" height="1080" alt="Screenshot (325)" src="https://github.com/user-attachments/assets/162a2b02-a957-42bb-a242-f52205f8aa34" />
+
+<img width="1920" height="1080" alt="Screenshot (326)" src="https://github.com/user-attachments/assets/bba966e0-c8ea-4443-9605-8d11c71c52db" />
+
+<img width="1920" height="1080" alt="Screenshot (327)" src="https://github.com/user-attachments/assets/25b73c76-9e6d-4978-b8f5-3c0e3db0e3d0" />
+
+<img width="1920" height="1080" alt="Screenshot (328)" src="https://github.com/user-attachments/assets/617fd5a9-b2d9-408f-9dd7-12ebab2b10ff" />
+
+<img width="1920" height="1080" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/e1208c89-d4bc-43e3-a6a4-adc42aec5196" />
+
+<img width="1920" height="1080" alt="Screenshot (330)" src="https://github.com/user-attachments/assets/55f11332-ac98-4623-b646-b192f6f63743" />
+<img width="1920" height="1080" alt="Screenshot (332)" src="https://github.com/user-attachments/assets/e1cff6ac-fa48-4cbd-823a-62411c4f93b8" />
+
+<img width="1920" height="1080" alt="Screenshot (333)" src="https://github.com/user-attachments/assets/45bac8b8-a040-444c-9ba6-8a6960f6fb5f" />
+<img width="1920" height="1080" alt="Screenshot (334)" src="https://github.com/user-attachments/assets/f360a2b8-99ac-4841-bf0c-107bbac95108" />
+
+
+<img width="1920" height="1080" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/978bb083-fea1-4751-b1c7-f25bafea5882" />
+
+
+<img width="1920" height="1080" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/633a32aa-271f-40d0-a71d-dcfddab447bf" />
+
+<img width="1920" height="1080" alt="Screenshot (338)" src="https://github.com/user-attachments/assets/e90837af-91db-4d7a-8bfb-2aa2d5380f84" />
+
+
+
+<details>
+
+<details>
+  <summary>
+ IMPLEMENTATION
+  </summary>
+
+1. Clone custom inverter standard cell design from github repository: [Standard cell design and characterization using OpenLANE flow](https://github.com/nickson-jose/vsdstdcelldesign).
+2. Load the custom inverter layout in magic and explore.
+3. Spice extraction of inverter in magic.
+4. Editing the spice model file for analysis through simulation.
+5. Post-layout ngspice simulations.
+6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
+
+
+#### 1. Clone custom inverter standard cell design from github repository
+
+```bash
+# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Clone the repository with custom inverter design
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+# Change into repository directory
+cd vsdstdcelldesign
+
+# Copy magic tech file to the repo directory for easy access
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+# Check contents whether everything is present
+ls
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
+```
+
+Screenshot of commands run
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_01_51_10" src="https://github.com/user-attachments/assets/e87ac8af-58d9-4c3e-b720-f4b9f019dfb8" />
+
+#### 2. Load the custom inverter layout in magic and explore.
+
+Screenshot of custom inverter layout in magic
+<img width="402" height="378" alt="image" src="https://github.com/user-attachments/assets/684055e3-066e-4a2b-a9b0-a36eba2cf168" />
+
+NMOS and PMOS identified
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_01_53_55" src="https://github.com/user-attachments/assets/17615fd8-e5d4-425b-a4c2-8245c2a969c0" />
+
+Output Y connectivity to PMOS and NMOS drain verified
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_21_03_20" src="https://github.com/user-attachments/assets/ed545a31-34ed-4aa2-a909-f56d273f559f" />
+
+PMOS source connectivity to VDD (here VPWR) verified
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_21_03_46" src="https://github.com/user-attachments/assets/9a247b74-c804-4b53-92ba-6c363888590b" />
+
+Deleting necessary layout part to see DRC error
+<img width="773" height="411" alt="image" src="https://github.com/user-attachments/assets/f7c9d7ba-efee-40b3-91f6-fe308a9e3857" />
+
+
+#### 3. Spice extraction of inverter in magic.
+
+Commands for spice extraction of the custom inverter layout to be used in tkcon window of magic
+
+```tcl
+# Check current directory
+pwd
+
+# Extraction command to extract to .ext format
+extract all
+
+# Before converting ext to spice this command enable the parasitic extraction also
+ext2spice cthresh 0 rthresh 0
+
+# Converting to ext to spice
+ext2spice
+```
+
+Screenshot of tkcon window after running above commands
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_21_20_26" src="https://github.com/user-attachments/assets/91db13c5-2f1d-49da-861d-d0b83585ee1d" />
+
+
+Screenshot of created spice file
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_30_10_2025_21_22_30" src="https://github.com/user-attachments/assets/1f1c2d73-6ef9-4bc8-b786-97933ec1c929" />
+#### 4. Editing the spice model file for analysis through simulation.
+
+Measuring unit distance in layout grid
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_13_27" src="https://github.com/user-attachments/assets/4af392b1-d352-4e16-97a6-9cb935d49975" />
+Final edited spice file ready for ngspice simulation
+
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_31_08" src="https://github.com/user-attachments/assets/a33e1723-f7d3-45a3-b571-cd91e707c8a4" />
+
+
+#### 5. Post-layout ngspice simulations.
+
+Commands for ngspice simulation
+
+```bash
+# Command to directly load spice file for simulation to ngspice
+ngspice sky130_inv.spice
+
+# Now that we have entered ngspice with the simulation spice file loaded we just have to load the plot
+plot y vs time a
+```
+
+Screenshots of ngspice run
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_42_32" src="https://github.com/user-attachments/assets/a70edbff-14b8-4839-a591-7fa71492abb6" />
+Screenshot of generated plot
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_44_12" src="https://github.com/user-attachments/assets/d8483c6e-c117-4ff8-8187-958e92c189b7" />
+
+Rise transition time calculation
+
+```math
+Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ taken\ for\ output\ to\ rise\ to\ 20\%
+```
+```math
+20\%\ of\ output = 660\ mV
+```
+```math
+80\%\ of\ output = 2.64\ V
+```
+
+20% Screenshots
+<img width="762" height="437" alt="image" src="https://github.com/user-attachments/assets/ca044b10-4de3-4ac8-be99-68986c67ca07" />
+
+<img width="762" height="427" alt="image" src="https://github.com/user-attachments/assets/831ab7ff-15cc-4f8f-b1ba-1c61ed6d6383" />
+80% Screenshots
+<img width="712" height="404" alt="image" src="https://github.com/user-attachments/assets/1cc8aee8-97da-47b5-bd75-f1e7c32e2134" />
+<img width="739" height="416" alt="image" src="https://github.com/user-attachments/assets/2b3ca48a-137b-4bd5-a466-b2ad2bf500de" />
+```math
+Rise\ transition\ time = 2.24638 - 2.18242 = 0.06396\ ns = 63.96\ ps
+```
+
+Fall transition time calculation
+
+```math
+Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ taken\ for\ output\ to\ fall\ to\ 80\%
+```
+```math
+20\%\ of\ output = 660\ mV
+```
+```math
+80\%\ of\ output = 2.64\ V
+```
+
+20% Screenshots
+<img width="757" height="420" alt="image" src="https://github.com/user-attachments/assets/a0a98d68-0276-4de3-b8dd-833607de15ea" />
+
+<img width="723" height="421" alt="image" src="https://github.com/user-attachments/assets/118569bd-6e3d-4e42-adc6-c1e650fa3203" />
+
+80% Screenshots
+
+<img width="743" height="415" alt="image" src="https://github.com/user-attachments/assets/a3c9145e-d8a5-43e7-9295-1e5c80e06a32" />
+
+<img width="656" height="423" alt="image" src="https://github.com/user-attachments/assets/d0b37117-d806-4bff-a42f-d66f04423af7" />
+
+
+```math
+Fall\ transition\ time = 4.0955 - 4.0536 = 0.0419\ ns = 41.9\ ps
+```
+
+Rise Cell Delay Calculation
+
+```math
+Rise\ Cell\ Delay = Time\ taken\ for\ output\ to\ rise\ to\ 50\% - Time\ taken\ for\ input\ to\ fall\ to\ 50\%
+```
+```math
+50\%\ of\ 3.3\ V = 1.65\ V
+```
+
+50% Screenshots
+<img width="721" height="406" alt="image" src="https://github.com/user-attachments/assets/f2b01748-6dc1-4685-b8f4-c3b649d43911" />
+<img width="739" height="422" alt="image" src="https://github.com/user-attachments/assets/0f68032d-7a23-49c0-94dd-9aa9b4d34203" />
+
+
+
+```math
+Rise\ Cell\ Delay = 2.21144 - 2.15008 = 0.06136\ ns = 61.36\ ps
+```
+
+Fall Cell Delay Calculation
+
+
+```math
+Fall\ Cell\ Delay = Time\ taken\ for\ output\ to\ fall\ to\ 50\% - Time\ taken\ for\ input\ to\ rise\ to\ 50\%
+```
+```math
+50\%\ of\ 3.3\ V = 1.65\ V
+```
+
+50% Screenshots
+
+<img width="721" height="410" alt="image" src="https://github.com/user-attachments/assets/7c4d8a9b-6188-4947-809b-b5723aeb0369" />
+
+
+```math
+Fall\ Cell\ Delay = 4.07 - 4.05 = 0.02\ ns = 20\ ps
+```
 
 
 
@@ -328,21 +826,7 @@ Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details>
 
 
 
