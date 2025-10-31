@@ -612,8 +612,7 @@ exit
 <img width="1920" height="1080" alt="Screenshot (338)" src="https://github.com/user-attachments/assets/e90837af-91db-4d7a-8bfb-2aa2d5380f84" />
 
 
-
-<details>
+</details>
 
 <details>
   <summary>
@@ -826,7 +825,7 @@ Fall\ Cell\ Delay = 4.07 - 4.05 = 0.02\ ns = 20\ ps
 
 
 
-<details>
+</details>
 
 
 
