@@ -721,8 +721,10 @@ plot y vs time a
 ```
 
 Screenshots of ngspice run
+
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_42_32" src="https://github.com/user-attachments/assets/a70edbff-14b8-4839-a591-7fa71492abb6" />
 Screenshot of generated plot
+
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_01_44_12" src="https://github.com/user-attachments/assets/d8483c6e-c117-4ff8-8187-958e92c189b7" />
 
 Rise transition time calculation
@@ -738,12 +740,15 @@ Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ ta
 ```
 
 20% Screenshots
-<img width="762" height="437" alt="image" src="https://github.com/user-attachments/assets/ca044b10-4de3-4ac8-be99-68986c67ca07" />
 
+<img width="762" height="437" alt="image" src="https://github.com/user-attachments/assets/ca044b10-4de3-4ac8-be99-68986c67ca07" />
 <img width="762" height="427" alt="image" src="https://github.com/user-attachments/assets/831ab7ff-15cc-4f8f-b1ba-1c61ed6d6383" />
+
 80% Screenshots
+
 <img width="712" height="404" alt="image" src="https://github.com/user-attachments/assets/1cc8aee8-97da-47b5-bd75-f1e7c32e2134" />
 <img width="739" height="416" alt="image" src="https://github.com/user-attachments/assets/2b3ca48a-137b-4bd5-a466-b2ad2bf500de" />
+
 ```math
 Rise\ transition\ time = 2.24638 - 2.18242 = 0.06396\ ns = 63.96\ ps
 ```
@@ -761,14 +766,13 @@ Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ ta
 ```
 
 20% Screenshots
-<img width="757" height="420" alt="image" src="https://github.com/user-attachments/assets/a0a98d68-0276-4de3-b8dd-833607de15ea" />
 
+<img width="757" height="420" alt="image" src="https://github.com/user-attachments/assets/a0a98d68-0276-4de3-b8dd-833607de15ea" />
 <img width="723" height="421" alt="image" src="https://github.com/user-attachments/assets/118569bd-6e3d-4e42-adc6-c1e650fa3203" />
 
 80% Screenshots
 
 <img width="743" height="415" alt="image" src="https://github.com/user-attachments/assets/a3c9145e-d8a5-43e7-9295-1e5c80e06a32" />
-
 <img width="656" height="423" alt="image" src="https://github.com/user-attachments/assets/d0b37117-d806-4bff-a42f-d66f04423af7" />
 
 
@@ -786,6 +790,7 @@ Rise\ Cell\ Delay = Time\ taken\ for\ output\ to\ rise\ to\ 50\% - Time\ taken\ 
 ```
 
 50% Screenshots
+
 <img width="721" height="406" alt="image" src="https://github.com/user-attachments/assets/f2b01748-6dc1-4685-b8f4-c3b649d43911" />
 <img width="739" height="422" alt="image" src="https://github.com/user-attachments/assets/0f68032d-7a23-49c0-94dd-9aa9b4d34203" />
 
@@ -846,18 +851,21 @@ magic -d XR &
 ```
 
 Screenshots of commands run
-<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_19_27_48" src="https://github.com/user-attachments/assets/29a6c994-a0aa-4bb3-b760-2c396ad1639b" />
 
+<img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_19_27_48" src="https://github.com/user-attachments/assets/29a6c994-a0aa-4bb3-b760-2c396ad1639b" />
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_19_30_00" src="https://github.com/user-attachments/assets/b178191b-cdc4-4c93-90c9-6e6c76176d27" />
 
 
 Screenshot of .magicrc file
+
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_19_32_38" src="https://github.com/user-attachments/assets/5d505897-efd9-4dc4-a988-3c4a0fa5d713" />
 
 **Incorrectly implemented poly.9 simple rule correction**
 
 Screenshot of poly rules
+
 <img width="854" height="453" alt="image" src="https://github.com/user-attachments/assets/c4cb336d-c029-42b5-adc7-35a2f290ce12" />
+
 Incorrectly implemented poly.9 rule no drc violation even though spacing < 0.48u
 
 <img width="1920" height="923" alt="VirtualBox_Physical_Design_31_10_2025_20_54_37" src="https://github.com/user-attachments/assets/4e226b6d-a716-40d6-a325-eb0536a25a79" />
@@ -866,6 +874,7 @@ Incorrectly implemented poly.9 rule no drc violation even though spacing < 0.48u
 
 
 New commands inserted in sky130A.tech file to update drc
+
 <img width="852" height="473" alt="image" src="https://github.com/user-attachments/assets/acfc12fa-23f0-4258-b475-b30bc4ef0e0e" />
 <img width="860" height="455" alt="image" src="https://github.com/user-attachments/assets/72509a8e-9564-4fc2-b43c-ba139528080f" />
 
@@ -883,14 +892,18 @@ drc why
 ```
 
 Screenshot of magic window with rule implemented
+
 <img width="998" height="554" alt="image" src="https://github.com/user-attachments/assets/2e4b5601-88ba-4d4b-be57-fb0e44d52d1b" />
 <img width="943" height="504" alt="image" src="https://github.com/user-attachments/assets/b39f7863-8a32-4311-884a-c7c5b63c921a" />
+
 **Incorrectly implemented difftap.2 simple rule correction**
 
 Screenshot of difftap rules
+
 <img width="989" height="529" alt="image" src="https://github.com/user-attachments/assets/473bf8d4-c86d-402c-a620-6a51633db302" />
 
 Incorrectly implemented difftap.2 rule no drc violation even though spacing < 0.42u
+
 <img width="992" height="543" alt="image" src="https://github.com/user-attachments/assets/a4bd0507-68e3-4819-9871-32402f9b6b1e" />
 
 New commands inserted in sky130A.tech file to update drc
@@ -917,12 +930,15 @@ Screenshot of magic window with rule implemented
 **Incorrectly implemented nwell.4 complex rule correction**
 
 Screenshot of nwell rules
+
 <img width="990" height="525" alt="image" src="https://github.com/user-attachments/assets/5e07ac20-a2fd-4d47-bf8b-ee38197ab64b" />
 
 Incorrectly implemented nwell.4 rule no drc violation even though no tap present in nwell
+
 <img width="995" height="538" alt="image" src="https://github.com/user-attachments/assets/99859af6-918c-4aaf-9199-7c8b56a8f24f" />
 
 New commands inserted in sky130A.tech file to update drc
+
 <img width="993" height="545" alt="image" src="https://github.com/user-attachments/assets/1a7b4f85-a27f-410b-a502-9953625145c8" />
 <img width="995" height="543" alt="image" src="https://github.com/user-attachments/assets/967c8b25-3ec2-48b5-ba60-9312e2046ead" />
 
